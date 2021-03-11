@@ -1,0 +1,85 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.content {
+  max-width: var(--layout-width);
+  padding: 0 var(--layout-padding);
+  margin: 0 auto;
+  margin-bottom: 4em;
+  text-align: center;
+}
+.content .title {
+  font-size: 3em;
+  margin-bottom: 1.5em;
+}
+.content .title b {
+  font-weight: 800;
+}
+.content .cta {
+  margin-top: 2em;
+  display: inline-block;
+  color: rgba(252, 74, 186, 0.95);
+  transition: color 0.3s ease;
+}
+.content .cta:hover {
+  color: #c93a95;
+}
+
+.stream {
+  position: relative;
+  width: 100%;
+  height: 18em;
+  margin-bottom: 1em;
+}
+.appIcon {
+  position: absolute;
+  width: 5em;
+  height: 5em;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  will-change: transform;
+  z-index: 1;
+  box-shadow: 0px 0.75em 1em rgba(13, 102, 229, 0.2);
+}
+.appIcon.large {
+  height: 6.5em;
+  width: 6.5em;
+}
+.appIcon:hover {
+  z-index: 5;
+}
+.appIcon .appIconNameContainer {
+  position: absolute;
+  background-color: white;
+  width: max-content;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  padding: 0.25em 0.75em;
+  border-radius: 1em;
+  box-shadow: 0px 0.75em 1em rgba(13, 102, 229, 0.2);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.appIcon:hover .appIconNameContainer {
+  bottom: -2.5em;
+  opacity: 1;
+}
+.appIcon .appIconName {
+  color: #b8b8c7;
+}
+.appIcon .appIconImageContainer {
+  padding: 1em;
+}
+.appIcon.large .appIconImageContainer {
+  padding: 1.25em;
+}
+.appIcon .appIconImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}

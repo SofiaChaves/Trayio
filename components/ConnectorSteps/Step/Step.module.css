@@ -1,0 +1,29 @@
+@keyframes scalingImages {
+    0% {transform: (1)}
+    50% {transform: scale(1.15)}
+    100% {transform: scale(1)}
+  }
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+    text-align: center;
+    width: var(--box-size);
+    height: var(--box-size);
+    background-color: white;
+    border-radius: 1em;
+    box-shadow: 0px 0.75em 1em rgb(13 102 229 / 10%);
+}
+.logo img{
+    max-width: 5em;
+}
+.animateImg{
+    animation: scalingImages 0.5s;
+}

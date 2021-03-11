@@ -1,0 +1,60 @@
+.ConnectorHero {
+  background-color: #f7f7f9;
+  width: 100%;
+  padding: 2em;
+}
+
+.container {
+  max-width: var(--layout-width);
+  margin: 0 auto;
+  padding: 0 2em;
+}
+
+.logoContainer {
+  display: inline-block;
+}
+.logo {
+  display: block;
+  width: 10em;
+  height: auto;
+}
+
+.content {
+  display: grid;
+  align-items: center;
+  gap: 4em;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1em;
+}
+.content .title {
+  font-size: 3em;
+  line-height: 1em;
+  margin: 0;
+}
+.content .subtitle {
+  font-size: 1.2em;
+}
+.content button {
+  border-radius: 4px;
+  background-color: var(--color-blue);
+  color: white;
+  border: none;
+  padding: 1em;
+}
+
+.content button:hover {
+  background-color: var(--color-blue-hover);
+  cursor: pointer;
+}
+
+.connectorIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.connectorIcon {
+  display: block;
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+}

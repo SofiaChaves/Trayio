@@ -1,0 +1,16 @@
+.ConnectorSteps{
+    background-color: #f7f7f9;
+    width: 100%;
+    padding: 2em;
+}
+
+.container {
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 4em 2em;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}

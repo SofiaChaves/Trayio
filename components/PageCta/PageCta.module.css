@@ -1,0 +1,41 @@
+.PageCta {
+  background-color: #f7f7f9;
+  width: 100%;
+  padding: 2em;
+}
+
+.PageCta h1 {
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.PageCta p {
+  margin-top: 0;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.PageCtaGrid {
+  display: grid;
+  align-items: center;
+  gap: 4em;
+  grid-template-columns: 1fr 1fr;
+  max-width: var(--layout-width);
+  margin: 0 auto;
+  padding: 0 2em;
+}
+
+.PageCta button {
+  border-radius: 4px;
+  background-color: #0d66e5;
+  color: white;
+  border: none;
+  padding: 1em 3em;
+  margin-right: 2em;
+  font-size: 1.2em;
+}
+
+.PageCta button:hover {
+  background-color: #143861;
+  cursor: pointer;
+}

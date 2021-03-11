@@ -1,0 +1,54 @@
+{
+  "connectors": [
+    {
+      "name": "Salesforce",
+      "slug": "salesforce",
+      "logo": "https://images.ctfassets.net/7rbn0raz0t75/3GKOzEGRInvqys0DChz5tw/e5b4f7f95429d09f8add8b909742c38c/Salesforce-icon-color"
+    },
+    {
+      "name": "Asana",
+      "slug": "asana",
+      "logo": "https://images.ctfassets.net/7rbn0raz0t75/2xh50s4vDOCzeCIJREaKyz/626d4e2d34c1914a610e5513b49966e3/asana-logo-color.svg"
+    },
+    {
+      "name": "Shopify",
+      "slug": "shopify",
+      "logo": "https://images.ctfassets.net/7rbn0raz0t75/6j9Bl92w5Ayo8ZDJgKD5I0/b463fd679036a5f422e46d36ec473c18/Shopify-logo-color.svg"
+    },
+    {
+      "name": "Firebase",
+      "slug": "firebase",
+      "logo": "https://images.ctfassets.net/7rbn0raz0t75/2SLKTXWb32AAACDT1ae2bi/78ff19f1e10e6bba1702bdb9514a6243/Firebase-icon-color"
+    },
+    {
+      "name": "Zoom",
+      "slug": "zoom",
+      "logo": "https://images.ctfassets.net/7rbn0raz0t75/5hKJ744yYCUp14oYaTb1OH/515ce1a9420f8065a0e7391917ce5d01/Zoom.svg"
+    },
+    {
+      "name": "Microsoft Power BI",
+      "slug": "powerbi",
+      "logo": "https://images.ctfassets.net/7rbn0raz0t75/7iqXybi5ap2z57M4XRqo5A/5c436f15d04bd61e5a847ad2f138341e/MicrosoftPowerBI-icon-color"
+    },
+    {
+      "name": "Microsoft Teams",
+      "slug": "microsoftteams",
+      "logo": "https://images.ctfassets.net/7rbn0raz0t75/0B1aMTvFsnx4XoQmIVuhMP/51424f4cf459c0723237678d9d5fbb12/Microsoft_Teams.svg"
+    },
+    {
+      "name": "Hubspot",
+      "slug": "hubspot",
+      "logo": "https://images.ctfassets.net/7rbn0raz0t75/1BZgQXfjfOUiDyhTVgffGo/d58a385e6aac69010f295bd93c1ea14e/HubSpot.svg"
+    },
+    {
+      "name": "Slack",
+      "slug": "slack",
+      "logo": "https://images.ctfassets.net/7rbn0raz0t75/P5VL7nhv2A1wIoaD4zagl/089da8ec6f43ba8bcc858cab43c4c08d/Slack-icon-color"
+    },
+    {
+      "name": "Monday",
+      "slug": "monday",
+      "logo": "https://images.ctfassets.net/7rbn0raz0t75/35VMBbhZBNhC1DUpYlrUD9/0b0648e8acd958993159fdd1c6899cea/Monday-icon-color"
+    }
+  ]
+}
